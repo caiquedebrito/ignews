@@ -1,0 +1,8 @@
+{
+  "apiEndpoint": "https://debrito.prismic.io/api/v2",
+  "libraries": [
+    "@/slices"
+  ],
+  "_latest": "0.5.2",
+  "localSliceSimulatorURL": "http://localhost:3000/slice-simulator"
+}
