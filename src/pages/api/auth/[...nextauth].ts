@@ -1,12 +1,8 @@
-import NextAuth, { DefaultSession, Session } from "next-auth"
+import NextAuth, { DefaultSession } from "next-auth"
 import GithubProvider from "next-auth/providers/github"
 
 import { query as q } from "faunadb"
 import { fauna } from "../../../services/fauna"
-
-interface SessionReturn extends DefaultSession {
-  userActiveSubscription: object
-}
 
 export const authOptions = {
   providers: [
